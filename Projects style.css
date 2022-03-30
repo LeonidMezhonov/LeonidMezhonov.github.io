@@ -61,41 +61,14 @@ a {
 }
 
 .container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 150px 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "about_me_text about_me_text about_me_text about_me_text"
-    "education_text education_text skills_text skills_text"; 
-}
-
-.about_me_text { 
-  grid-area: about_me_text; 
-  border-bottom: 3px solid black;
-  margin: 5px 0;
-  padding: 20px;
-  text-align: justify;
-}
-
-.education_text { 
-  grid-area: education_text;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  margin: 25px;
-  padding: 20px;
-}
-
-.skills_text {
-  grid-area: skills_text;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  margin: 25px;
-  padding: 20px;
-} 
-
-h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+
+p {
+  font-size: 1.5em;
 }
