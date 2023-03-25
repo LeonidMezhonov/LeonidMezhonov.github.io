@@ -1,0 +1,422 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #333;
+  font-family: Montserrat;
+  font-weight: 600;
+  background-color: #F3F3F3;
+}
+
+.wrapper {
+  max-width: 1840px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.main-page {
+  display: flex;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+
+
+/* ---------------sidebar-------------------------- */
+
+.sidebar {
+  margin: 56px 0px 0px 0px;
+  text-align: center;
+}
+
+.my-site {
+  font-family: Noto Sans JP;
+  font-size: 113px;
+  font-weight: 500;
+  line-height: 117px;
+  color: rgba(51, 51, 51, 0.5);
+
+  width: 153px;
+}
+
+.translation1 {
+  font-size: 16px;
+  font-weight: 600;
+
+  color: rgba(51, 51, 51, 0.5);
+}
+
+/* ---------------main-page-------------------------- */
+
+.main {
+  /* background: brown; */
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  height: 930px;
+}
+
+/* ---------------header-------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 0px 0px 0px;
+}
+
+.menu__link:not(:last-child) {
+  margin: 0px 32px 0px 0px;
+}
+
+.menu__link {
+  font-size: 32px;
+  color: #333;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.social-media {
+  display: flex;
+  font-size: 32px;
+  margin: 0px 0px 0px 0px;
+  z-index: 9999;
+}
+
+.social__medias__link {
+  font-size: 32px;
+  color: #333;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+/* ---------------main-page-title-------------------------- */
+
+.title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.titles {
+  margin: 190px 0px 0px 0px;
+}
+
+.titles__title {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 122px;
+
+  max-width: 800px;
+}
+
+.titles__subtitle {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 72px;
+
+  width: 545px;
+}
+
+.pdf {
+  font-weight: 500;
+  font-size: 32px;
+
+  margin: 0px 0px 0px 25px;
+}
+
+.pdf__link {
+  color: #333;
+}
+
+.arrow {
+  position: relative;
+
+  top: 39px;
+  left: -25px;
+}
+
+/* ---------------main-page-image-------------------------- */
+
+.image {
+  position: relative;
+  margin: 0px auto;
+  padding: 130px 0px 0px 0px;
+}
+
+.circle {
+  z-index: 1;
+  background: #8E1D23;
+
+  width: 45em;
+  height: 45em;
+  border-radius: 50em;
+}
+
+.main-img {
+  position: absolute;
+  /* width: 800px;
+  height: 1084px; */
+  
+  z-index: 50;
+
+  top: -95px;
+  right: 7px;
+}
+
+/* ---------------about-page-sidebar-------------------------- */
+
+.about-page {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar-about {
+  /* background: greenyellow; */
+  margin: 56px 0px 0px 0px;
+  text-align: center;
+}
+
+.about {
+  font-family: Noto Sans JP;
+  font-size: 113px;
+  font-weight: 500;
+  line-height: 117px;
+  color: rgba(51, 51, 51, 0.5);
+
+  width: 153px;
+  /* height: 936px; */
+}
+
+.translation2 {
+  font-size: 16px;
+  font-weight: 600;
+
+  color: rgba(51, 51, 51, 0.5);
+}
+
+/* ---------------about-page-text-------------------------- */
+
+.about-text {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 78px;
+
+  margin: 56px 0px 0px 0px;
+  max-width: 1455px;
+}
+
+/* ---------------education-skills-page-sidebar------------------------- */
+
+.education-skills-page {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar-skills {
+  /* background: greenyellow; */
+  margin: 56px 0px 0px 0px;
+  text-align: center;
+}
+
+.sidebar-skills__skills {
+  font-family: Noto Sans JP;
+  font-size: 113px;
+  font-weight: 500;
+  line-height: 117px;
+  color: rgba(51, 51, 51, 0.5);
+
+  width: 153px;
+}
+
+.translation3 {
+  font-size: 16px;
+  font-weight: 600;
+
+  color: rgba(51, 51, 51, 0.5);
+}
+
+/* ---------------education-skills-page-------------------------- */
+
+.education-skills-page__text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 20px 0px 0px 0px;
+}
+
+.education-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-languages {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+  justify-content: space-between;
+}
+
+.education-skills-page__text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.education-text__text-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+
+  padding: 47px 0px 5px;
+}
+
+.education-text__text-subtitle {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+
+  padding: 5px 0px;
+}
+
+.education-text__text-subsubtitle {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.skills-text {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.languages {
+  margin: 0px 232px 0px 0px;
+}
+
+.languages-text {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.skills-text-block {
+  padding: 47px 0px;
+}
+
+.languages-text-block {
+  padding: 47px 0px;
+}
+
+.circle-education {
+  position: relative;
+
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  
+
+  background: #E4333D;
+  opacity: 0.65;
+
+  top: 72px;
+  left: -4px;
+
+  z-index: -1;
+}
+
+.circle-skills {
+  position: relative;
+
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  
+
+  background: #E4333D;
+  opacity: 0.65;
+
+  top: 72px;
+  left: -4px;
+
+  z-index: -1;
+}
+
+.circle-languages {
+  position: relative;
+
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  
+
+  background: #E4333D;
+  opacity: 0.65;
+
+  top: 72px;
+  left: -4px;
+
+  z-index: -1;
+}
+
+/* ---------------back-to-top-------------------------- */
+
+.back-to-top {
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  bottom: -100px;
+  right: 50px;
+  background: rgba(142, 29, 35, 0.1);
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.back-to-top.active {
+  bottom: 50px;
+}
+
+.mobile {
+  display: none;
+}

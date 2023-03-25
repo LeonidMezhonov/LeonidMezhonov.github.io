@@ -1,60 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="CSS/general-styles.css">
+  <link rel="stylesheet" href="CSS/media-styles1785.css" media="(max-width: 1785px)">
+  <link rel="stylesheet" href="CSS/media-styles1439.css" media="(max-width: 1439px)">
+  <link rel="stylesheet" href="CSS/media-styles1240.css" media="(max-width: 1240px)">
+  <link rel="stylesheet" href="CSS/media-styles941.css" media="(max-width: 941px)">
+  <link rel="stylesheet" href="mobile-version/mobile-stylesL.css" media="(max-width: 675px)">
+  <link rel="stylesheet" href="mobile-version/mobile-stylesL-M.css" media="(max-width: 400px)">
+  <link rel="stylesheet" href="mobile-version/mobile-stylesM.css" media="(max-width: 375px)">
+  <link rel="stylesheet" href="mobile-version/mobile-stylesS.css" media="(max-width: 360px)">
   <style>
-  @import url('https://fonts.googleapis.com/css2?   family=Gloria+Hallelujah&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');  
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
   </style>
-  <link rel="stylesheet" href="style.css">
+  <title>Leonid</title>
 </head>
+
 <body>
-  <div class="website">
-    <header>
-      <div class="logo"><img src="https://i.pinimg.com/originals/79/c1/9a/79c19afc103f34716adeb490aee202d5.jpg" alt="My logo"></div>
-      <nav class="menu">
-        <ul class="d-flex nav-wrap">
-            <li class="nav-item"><a href="index.html">about me</a></li>
-            <li class="nav-item"><a href="#">artworks</a></li>
-            <li class="nav-item"><a href="Projects.html">projects</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="container">
-      <div class="about_me_text">
-        <p>Hi, my name is Leonid. I'm 25 y.o. I'm from Kazakhstan, but currently living and working in Prague as a Construction Budgeter. Studying IT on Hexlet course. I love to draw, I'm not so good at it, but I'm trying :)</p>
-      </div>
-      <div class="education_text"><h2>Education</h2>
-        <ul>
-          <li>Czech Technical University in Prague<br>Bachelor degree<br>MANAGEMENT AND ECONOMICS IN CONSTRUCTION</li>
-          <li>Czech Technical University in Prague<br>Master degree<br>PROJECT MANAGEMENT AND ENGINEERING<br>unfinished</li>
-          <li>Coursera<br>FRONT-END DEVELOPER<br>HTML and CSS basics</li>
-          <li>Hexlet<br>FRONT-END DEVELOPER<br>In progress</li>
-        </ul>
-      </div>
-
-      <div class="skills_text">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS basics</li>
-          <li>Git</li>
-        </ul>
-        
-        <h2>Languages</h2>
-        <ul>
-          <li>English - B2</li>
-          <li>Czech - C1</li>
-          <li>Russian - native</li>
-        </ul>
+  <div class="wrapper">
+    <div class="main-page">
+      <div class="sidebar desktop">
+        <div class="my-site">
+          私のウェブサイト
         </div>
-    </div> 
+        <div class="translation1">
+          『My website』
+        </div>
+      </div>
+      <div class="main">
+        <div class="header">
+          <div class="menu">
+            <a href="#about" class="menu__link">about</a>
+            <a href="#skills" class="menu__link">skills</a>
+            <a href="#artworks" class="menu__link">artworks</a>
+            <!-- <a href="#" class="menu__link">projects</a> -->
+          </div>
+          <div class="social-media desktop">
+            <a href="https://instagram.com/penguin_cafe?igshid=YmMyMTA2M2Y=" target="_blank" class="social__medias__link">ig</a> 
+            <div class="divider">—</div>
+            <a href="https://www.facebook.com/profile.php?id=100010414710500" target="_blank" class="social__medias__link">fb</a> 
+            <div class="divider">—</div>
+            <a href="https://www.linkedin.com/in/leonid-mezhonov-51122a23b/" target="_blank" class="social__medias__link">in</a>
+          </div>
+        </div>
+        <div class="content">
+          <div class="title-block">
+            <div class="titles">
+              <h1 class="titles__title">Hi, I am Leonid</h1>
+              <p class="titles__subtitle">Prague based junior Front-end developer.</p>
+            </div>
+            <div class="pdf desktop">
+              <div class="pdf__arrow"><img class="arrow" src="img/Vector.png" alt="arrow"></div>
+              <a href="CV/Leonid_Mezhonov_CV_EN.pdf" target="_blank" class="pdf__link">CV</a>
+            </div>
+          </div>
+          <div class="image">
+            <div class="circle"></div>
+            <img class="main-img" src="img/main-image-mobile.png" alt="main-image">
+          </div>
+
+<!-- mobile version -->
+
+          <div class="links mobile">
+            <div class="pdf mobile">
+                <div class="pdf__arrow"><img class="arrow" src="img/Vector.png" alt="arrow"></div>
+                <a href="CV/Leonid_Mezhonov_CV_EN.pdf" target="_blank" class="pdf__link">CV</a>
+            </div>
+            <div class="social-media mobile">
+                <a href="https://instagram.com/penguin_cafe?igshid=YmMyMTA2M2Y=" target="_blank" class="social__medias__link">ig</a> 
+                <div class="divider">—</div>
+                <a href="https://www.facebook.com/profile.php?id=100010414710500" target="_blank" class="social__medias__link">fb</a> 
+                <div class="divider">—</div>
+                <a href="https://www.linkedin.com/in/leonid-mezhonov-51122a23b/" target="_blank" class="social__medias__link">in</a>
+            </div>
+          </div>
+        </div>
+
+<!-- mobile version -->
+
+        <div class="arrow-to-down mobile">
+          <a href="#about"><img src="img/down.png" alt="arrow"></a>
+        </div>
+
+<!-- -------------- -->
+
+      </div>
+    </div>
+
+    <div id="about" class="about-page">
+      <div class="sidebar-about">
+        <div class="about">
+          私について
+        </div>
+        <div class="translation2">
+          『About me』
+        </div>
+      </div>
+
+      <div class="about-block">
+        <p class="about-text">My name is Leonid Mezhonov <br>
+          Self-taught front-end developer from Kazakhstan, who can work with HTML, CSS and JavaScript. </p>
+        <p class="about-text">I like to draw, read manga, watch anime and play games.</p>
+      </div>
+    </div>
+
+    <div id="skills" class="education-skills-page">
+      <div class="sidebar-skills">
+        <div class="sidebar-skills__skills">
+          自分のスキル
+        </div>
+        <div class="translation3">
+          『My skills』
+        </div>
+      </div>
+
+      <div class="education-skills-page__text">
+        <div class="education">
+          <h1 class="education-title"><div class="circle-education desktop"></div>Education</h1>
+          <div class="education-text desktop">
+            <div class="education-block1">
+              <p class="education-text__text-title">2022-present</p>
+              <p class="education-text__text-subtitle">HEXLET - front-end development</p>
+              <p class="education-text__text-title">2020 (unfinished)</p>
+              <p class="education-text__text-subtitle">ČVUT - civil engineering</p>
+              <p class="education-text__text-subsubtitle">Master's degree</p>
+            </div>
+            <div class="education-block2">
+              <p class="education-text__text-title">2021</p>
+              <p class="education-text__text-subtitle">Coursera - web-development</p>
+              <p class="education-text__text-title">2015-2020</p>
+              <p class="education-text__text-subtitle">ČVUT - civil engineering</p>
+              <p class="education-text__text-subsubtitle">Bachelor's degree</p>
+            </div>
+          </div>
+
+<!-- mobile version -->
+
+          <div class="education-text mobile">
+            <ul class="education-block">
+                <li>
+                    <div class="marker"></div>
+                    <div class="text-wrapper">
+                      <p class="education-text__text-title">2022-present</p>
+                      <p class="education-text__text-subtitle">HEXLET - front-end development</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="marker"></div>
+                    <div class="text-wrapper">
+                      <p class="education-text__text-title">2021</p>
+                      <p class="education-text__text-subtitle">Coursera - web-development</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="marker"></div>
+                    <div class="text-wrapper">
+                      <p class="education-text__text-title">2020 (unfinished)</p>
+                      <p class="education-text__text-subtitle">ČVUT - civil engineering</p>
+                      <p class="education-text__text-subsubtitle">Master's degree</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="marker"></div>
+                    <div class="text-wrapper">
+                      <p class="education-text__text-title">2015-2020</p>
+                      <p class="education-text__text-subtitle">ČVUT - civil engineering</p>
+                      <p class="education-text__text-subsubtitle">Bachelor's degree</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+<!-- ------------- -->
+
+        </div>
+
+        <div class="skills-languages">
+          <div class="skills">
+            <h1 class="skills-title"><div class="circle-skills desktop"></div>Skills</h1>
+            <div class="skills-text-block desktop">
+              <p class="skills-text">HTML</p>
+              <p class="skills-text">CSS</p>
+              <p class="skills-text">JavaScript</p>
+              <p class="skills-text">Git</p>
+              <p class="skills-text">Figma</p>
+            </div>
+
+<!-- mobile version -->
+
+            <div class="skills-text-block mobile">
+              <p class="skills-text mobile">HTML, CSS, JavaScript, Git, Figma</p>
+            </div>
+
+<!-- -------------- -->
+
+          </div>
+
+          <div class="languages">
+            <h1 class="languages-title"><div class="circle-languages desktop"></div>Languages</h1>
+            <div class="languages-text-block">
+              <p class="languages-text">English - B2</p>
+              <p class="languages-text">Czech - C1</p>
+              <p class="languages-text">Russian - native</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="back_to_top" class="back-to-top">
+      <img src="img/scroll.png" alt="arrow">
+    </div>
+    
   </div>
+  <script src="index.js"></script>
 </body>
+
 </html>

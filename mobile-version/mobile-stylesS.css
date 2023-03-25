@@ -1,0 +1,388 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ul,
+ol,
+li {
+  list-style: none;
+} */
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #333;
+  font-family: Montserrat;
+  font-weight: 600;
+  background-color: #F3F3F3;
+}
+
+.wrapper {
+  max-width: 425px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.main-page {
+  /* display: flex; */
+  width: 100%;
+}
+
+.desktop {
+    display: none;
+}
+
+/* ---------------------Header--------------------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+}
+  
+.menu__link:not(:last-child) {
+    margin: 0px 10px 0px 0px;
+}
+  
+.menu__link {
+    font-size: 20px;
+    color: #333;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+/* ---------------main-page-title-------------------------- */
+
+.title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+  
+.titles {
+    margin: 24px 0px 0px 0px;
+}
+  
+.titles__title {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 42px;
+}
+  
+.titles__subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+
+    width: 240px;
+}
+
+/* ----------------Logo-image------------------------------- */
+
+.content {
+    display: block;
+    height: 626px;
+}
+
+.image {
+    position: relative;
+    margin: 0px auto;
+    padding: 95px 0px 0px 0px;
+}
+  
+.circle {
+    margin: 0 auto;
+    z-index: -1;
+    background: #8E1D23;
+  
+    width: 296px;
+    height: 296px;
+    border-radius: 50%;
+}
+  
+.main-img {
+    position: absolute;
+    height: 422px;
+    
+    z-index: 9999;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* -----------------------links----------------------------- */
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+}
+
+.social-media.mobile {
+    display: flex;
+    font-size: 32px;
+    margin: 22px 0px 0px 0px;
+    z-index: 9999;
+}
+  
+.social__medias__link {
+    font-size: 25px;
+    color: #333;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.divider {
+    margin: 0px 7px;
+}
+
+.pdf.mobile {
+    display: block;
+
+    font-weight: 500;
+    font-size: 25px;
+  
+    margin: 0px 0px 0px 20px;
+}
+  
+.pdf__link {
+    color: #333;
+}
+  
+.arrow {
+    position: relative;
+  
+    top: 32px;
+    left: -20px;
+}
+
+.arrow-to-down {
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------------about-page---------------------------------- */
+.about-page {
+    display: block; 
+}
+
+.sidebar-about {
+    text-align: inherit;
+}
+
+.about {
+    width: auto;
+    font-family: Noto Sans JP;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgba(51, 51, 51, 0.5);
+
+    margin: 40px 0px 0px 0px;
+}
+
+.translation2 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.about-text {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #333;
+
+    padding: 17px 0px;
+    margin: 0px 0px;
+}
+
+.about-block {
+    height: 450px;
+}
+
+/* -----------------------Skills--------------------------------------- */
+.education-skills-page {
+    display: block;
+}
+
+.education-skills-page__text {
+    display: block;
+    width: auto;
+}
+
+.sidebar-skills {
+    text-align: inherit;
+}
+
+.sidebar-skills__skills {
+    width: auto;
+    font-family: Noto Sans JP;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgba(51, 51, 51, 0.5);
+
+    margin: 40px 0px 0px 0px;
+}
+
+.translation3 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.skills-languages {
+    display: block;
+    margin: 0px 0px;
+}
+
+ul li {
+    padding: 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+    background: #E9767D;
+}
+
+.education-skills-page__text h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.education {
+    margin: 32px 0px 0px 0px;
+}
+
+.education-text.mobile {
+    display: block;
+}
+
+.education-text__text-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+
+    padding: 0px 0px;
+}
+
+.education-text__text-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+
+    color: rgba(51, 51, 51, 0.5);
+
+    padding: 0px 0px;
+}
+
+.education-text__text-subsubtitle {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+
+    color: rgba(51, 51, 51, 0.5);
+}
+
+li p {
+    margin: 8px 0px;
+}
+
+.skills {
+    margin: 56px 0px 0px 0px;
+}
+
+.skills-text-block.mobile {
+    display: block;
+    padding: 0px 0px;
+    margin: 24px 0px 0px 0px;
+}
+
+.skills-text.mobile {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.languages {
+    margin: 56px 0px 0px 0px;
+}
+
+.languages-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+
+    margin: 8px 0px;
+}
+
+.languages-text-block {
+    margin: 24px 0px 0px 0px;
+    padding: 0px 0px;
+}
+
+/* ---------------back-to-top-------------------------- */
+
+.back-to-top {
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: -100px;
+    right: 30px;
+    background: rgba(142, 29, 35, 0.1);
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back-to-top.active {
+    bottom: 30px;
+}
+
+.back-to-top img {
+    height: 18px;
+}
