@@ -40,7 +40,7 @@ body {
   color: #333;
   font-family: Montserrat;
   font-weight: 600;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 .wrapper {
@@ -56,8 +56,6 @@ body {
   /* height: 100vh; */
 }
 
-
-
 /* ---------------sidebar-------------------------- */
 
 .sidebar {
@@ -66,13 +64,18 @@ body {
 }
 
 .my-site {
-  font-family: Noto Sans JP;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 113px;
   font-weight: 500;
-  line-height: 117px;
   color: rgba(51, 51, 51, 0.5);
-
   width: 153px;
+
+  writing-mode: vertical-rl; /* Vertical writing mode */
+  text-orientation: mixed; /* For mixed Latin/Japanese text */
 }
 
 .translation1 {
@@ -91,7 +94,7 @@ body {
 
 .content {
   display: flex;
-  height: 930px;
+  height: 735px;
 }
 
 /* ---------------header-------------------------- */
@@ -135,7 +138,6 @@ body {
   justify-content: space-between;
 }
 
-
 .titles {
   margin: 190px 0px 0px 0px;
 }
@@ -158,7 +160,7 @@ body {
 
 .pdf {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 40px;
 
   margin: 0px 0px 0px 25px;
 }
@@ -170,7 +172,7 @@ body {
 .arrow {
   position: relative;
 
-  top: 39px;
+  top: 52px;
   left: -25px;
 }
 
@@ -184,7 +186,7 @@ body {
 
 .circle {
   z-index: 1;
-  background: #8E1D23;
+  background: #8e1d23;
 
   width: 45em;
   height: 45em;
@@ -195,7 +197,7 @@ body {
   position: absolute;
   /* width: 800px;
   height: 1084px; */
-  
+
   z-index: 50;
 
   top: -95px;
@@ -352,9 +354,8 @@ body {
   width: 85px;
   height: 85px;
   border-radius: 100px;
-  
 
-  background: #E4333D;
+  background: #e4333d;
   opacity: 0.65;
 
   top: 72px;
@@ -369,9 +370,8 @@ body {
   width: 85px;
   height: 85px;
   border-radius: 100px;
-  
 
-  background: #E4333D;
+  background: #e4333d;
   opacity: 0.65;
 
   top: 72px;
@@ -386,9 +386,8 @@ body {
   width: 85px;
   height: 85px;
   border-radius: 100px;
-  
 
-  background: #E4333D;
+  background: #e4333d;
   opacity: 0.65;
 
   top: 72px;
