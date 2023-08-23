@@ -73,6 +73,7 @@ body {
   font-weight: 500;
   color: rgba(51, 51, 51, 0.5);
   width: 153px;
+  min-height: 920px;
 
   writing-mode: vertical-rl; /* Vertical writing mode */
   text-orientation: mixed; /* For mixed Latin/Japanese text */
